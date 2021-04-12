@@ -7,7 +7,7 @@ age = 0
 currentYear = Date.today.year
 nbYear = currentYear - bornYear
 
-while bornYear < currentYear
+while bornYear != currentYear
     nbYear -=1  
     puts " il y a #{nbYear} ans,tu avais #{age += 1} ans"
     bornYear += 1
